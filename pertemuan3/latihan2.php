@@ -1,7 +1,11 @@
 <?php 
-$i =5;
-if ($i < 10) {
+$i = 50;
+if ($i < 20) {
     echo "nilai kurang dari 10";
+}elseif ($i === 50) {
+    echo "Nombor tepat lima puluh";
+}else{
+    echo "Nombor lebih dari 10";
 }
 ?>
 
