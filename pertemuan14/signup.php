@@ -18,7 +18,7 @@ if (isset($_POST["signup"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
 </head>
-<body>
+<body><center>
     <h3>SIGN UP</h3>
     <form action="" method="post">
         <table>
@@ -47,7 +47,7 @@ if (isset($_POST["signup"])) {
             </tr>
         </table>
         <button type="submit" name="signup">Daftar</button>
-        <button type="button" onclick="window.location='index.php'">Batal</button>
-    </form>
+        <button type="button" onclick="window.location='login.php'">Batal</button>
+    </form></center>
 </body>
 </html>
